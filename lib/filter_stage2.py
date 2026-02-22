@@ -100,8 +100,8 @@ def score_metadata(candidate, metadata, keyword_groups):
         reasons.append("primary_channel")
 
     # --- View/engagement signal ---
-    view_count = metadata.get("view_count", 0)
-    like_count = metadata.get("like_count", 0)
+    view_count = metadata.get("view_count") or 0
+    like_count = metadata.get("like_count") or 0
     if view_count > 50000:
         score += 0.5
         reasons.append("high_views")
