@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "command": "uvx",
+      "args": ["workspace-mcp", "--single-user", "--transport", "stdio"],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "<your-client-id>",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "<your-client-secret>",
+        "USER_GOOGLE_EMAIL": "<your-email>",
+        "WORKSPACE_MCP_CREDENTIALS_DIR": "${HOME}/.google_workspace_mcp/credentials",
+        "ALLOWED_FILE_DIRS": "${HOME},/tmp",
+        "PORT": "18273"
+      }
+    },
+    "discord": {
+      "command": "uv",
+      "args": ["--directory", "<path-to-discord-mcp>", "run", "python", "src/server.py"],
+      "env": {
+        "DISCORD_BOT_TOKEN": "<your-discord-bot-token>"
+      }
+    },
+    "pandoc": {
+      "command": "uvx",
+      "args": ["mcp-pandoc"]
+    }
+  }
+}

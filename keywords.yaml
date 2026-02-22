@@ -1,0 +1,117 @@
+# Keyword groups for Stage 1 filtering
+# Weight multiplier determines importance: higher = more relevant
+# Matching is case-insensitive on RSS title + description
+
+keyword_groups:
+  dark_factory:
+    weight: 3
+    keywords:
+      - dark factory
+      - lights-out
+      - autonomous delivery
+      - software factory
+      - zero-human
+      - agentic delivery
+      - delivery factory
+      - autonomous agent
+      - autonomous coding
+      - self-healing
+      - self-improving
+      - agent swarm
+      - multi-agent
+      - agent orchestration
+
+  ai_coding:
+    weight: 2
+    keywords:
+      - claude code
+      - claude cli
+      - codex
+      - cursor
+      - copilot
+      - agentic coding
+      - vibe coding
+      - ai coding
+      - ai code
+      - ai developer
+      - ai engineer
+      - spec-driven
+      - ai-assisted
+      - code generation
+      - ai pair programming
+      - mcp server
+      - model context protocol
+      - tool use
+      - function calling
+      - claude sonnet
+      - claude opus
+      - claude haiku
+      - anthropic
+
+  devops:
+    weight: 2
+    keywords:
+      - ci/cd
+      - cicd
+      - continuous delivery
+      - continuous deployment
+      - continuous integration
+      - gitops
+      - kubernetes
+      - docker
+      - container
+      - infrastructure as code
+      - terraform
+      - ansible
+      - monitoring
+      - observability
+      - deployment automation
+      - devops
+      - platform engineering
+      - sre
+      - site reliability
+
+  enterprise:
+    weight: 1
+    keywords:
+      - engineering management
+      - developer productivity
+      - developer experience
+      - delivery metrics
+      - dora metrics
+      - technical leadership
+      - team topology
+      - software delivery
+      - agile
+      - sprint
+      - technical debt
+
+  business:
+    weight: 1
+    keywords:
+      - saas pricing
+      - product-led growth
+      - ai-native
+      - business model
+      - developer tools
+      - startup
+      - go-to-market
+      - pricing strategy
+      - enterprise sales
+
+  negative:
+    weight: -3
+    keywords:
+      - gaming
+      - minecraft
+      - fortnite
+      - cooking
+      - recipe
+      - workout
+      - fitness
+      - travel vlog
+      - unboxing
+      - mukbang
+      - asmr
+      - prank
+      - reaction video

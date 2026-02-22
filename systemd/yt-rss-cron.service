@@ -1,0 +1,14 @@
+[Unit]
+Description=YouTube RSS Cron — yt-intel pipeline trigger
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=REPO_ROOT_PLACEHOLDER
+ExecStart=/usr/bin/bash REPO_ROOT_PLACEHOLDER/poll.sh
+Environment=HOME=/home/USER_PLACEHOLDER
+TimeoutStartSec=900
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,93 @@
+# YouTube channels to monitor
+# category: primary (score boost) | secondary (no boost)
+# rss_url is derived from channel_id: https://www.youtube.com/feeds/videos.xml?channel_id=<ID>
+
+channels:
+  # --- Primary channels (score boost in Stage 2) ---
+
+  - name: Nate B Jones
+    channel_id: UC0C-17n9iuUQPylguM1d-lQ
+    category: primary
+    notes: AI strategy, trust architecture, agentic AI
+
+  - name: Anthropic
+    channel_id: UCrDwWp7EBBv4NwvScIpBDOA
+    category: primary
+    notes: Claude official, product updates
+
+  - name: IndyDevDan
+    channel_id: UC_x36zCEGilGpB1m-V4gmjg
+    category: primary
+    notes: Claude Code tutorials, agentic engineering
+
+  - name: Cole Medin
+    channel_id: UCMwVTLZIRRUyyVrkjDpn4pA
+    category: primary
+    notes: AI agent tutorials, Claude Code
+
+  - name: Continuous Delivery
+    channel_id: UChAF3VrsDuMQPjAWQGzNrWA
+    category: primary
+    notes: CI/CD, DevOps, delivery practices
+
+  - name: TechWorld with Nana
+    channel_id: UCdngmbVKX1Tgre699-XLlUA
+    category: primary
+    notes: Kubernetes, DevOps, GitOps
+
+  # --- Secondary channels ---
+
+  - name: Fireship
+    channel_id: UCsBjURrPoezykLs9EqgamOA
+    category: secondary
+    notes: Fast dev/AI news
+
+  - name: ThePrimeagen
+    channel_id: UCUyeluBRhGPCW4rPe_UvBZQ
+    category: secondary
+    notes: Dev tools, industry commentary
+
+  - name: Theo - t3.gg
+    channel_id: UCbRP3c757lWg9M-U7TyEkXA
+    category: secondary
+    notes: Web dev, AI coding, startups
+
+  - name: NetworkChuck
+    channel_id: UC9x0AN7BWHpCDHSm9NiJFJQ
+    category: secondary
+    notes: DevOps, cloud, containers
+
+  - name: Matthew Berman
+    channel_id: UCawZsQWqfGSbCI5yjkdVkTA
+    category: secondary
+    notes: AI tool reviews, LLMs
+
+  - name: Wes Roth
+    channel_id: UCqcbQf6yw5KzRoDDcZ_wBSw
+    category: secondary
+    notes: AI news, autonomous agents
+
+  - name: AI Jason
+    channel_id: UCrXSVX9a1mj8l0CMLwKgMVw
+    category: secondary
+    notes: AI agent tutorials
+
+  - name: Matt Wolfe
+    channel_id: UChpleBmo18P08aKCIgti38g
+    category: secondary
+    notes: AI tools catalog
+
+  - name: WorldofAI
+    channel_id: UCYwLV1gDwzGbg7jXQ52bVnQ
+    category: secondary
+    notes: AI tools and coding
+
+  - name: Internet of Bugs
+    channel_id: UCB58mEZJ82QAnDqcBASescg
+    category: secondary
+    notes: Software engineering, AI criticism
+
+  - name: "Dave's Garage"
+    channel_id: UCNzszbnvQeFzObW0ghk0Ckw
+    category: secondary
+    notes: Software engineering

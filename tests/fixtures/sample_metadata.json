@@ -1,0 +1,35 @@
+{
+  "id": "abc123test",
+  "title": "Claude Code Multi-Agent Orchestration Deep Dive",
+  "description": "In this video we explore building autonomous agent systems using Claude Code and MCP servers. We cover multi-agent orchestration patterns for software factory automation. Topics include: agentic coding workflows, CI/CD integration, and how to build a dark factory pipeline that runs without human intervention.",
+  "channel": "IndyDevDan",
+  "channel_id": "UC_x36zCEGilGpB1m-V4gmjg",
+  "uploader": "IndyDevDan",
+  "upload_date": "20260220",
+  "duration": 1847,
+  "view_count": 25000,
+  "like_count": 1200,
+  "tags": [
+    "claude code",
+    "mcp server",
+    "multi-agent",
+    "agentic coding",
+    "autonomous agents",
+    "software factory",
+    "AI coding",
+    "devops",
+    "claude",
+    "anthropic"
+  ],
+  "categories": ["Science & Technology"],
+  "chapters": [
+    {"title": "Intro", "start_time": 0, "end_time": 45},
+    {"title": "What is Multi-Agent Orchestration?", "start_time": 45, "end_time": 300},
+    {"title": "Setting Up Claude Code", "start_time": 300, "end_time": 600},
+    {"title": "Building the Pipeline", "start_time": 600, "end_time": 1200},
+    {"title": "Testing & Results", "start_time": 1200, "end_time": 1700},
+    {"title": "Outro", "start_time": 1700, "end_time": 1847}
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/abc123test/maxresdefault.jpg",
+  "webpage_url": "https://www.youtube.com/watch?v=abc123test"
+}

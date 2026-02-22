@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg"/>
+  <id>yt:channel:UC_x36zCEGilGpB1m-V4gmjg</id>
+  <yt:channelId>UC_x36zCEGilGpB1m-V4gmjg</yt:channelId>
+  <title>IndyDevDan</title>
+  <link rel="alternate" href="https://www.youtube.com/channel/UC_x36zCEGilGpB1m-V4gmjg"/>
+  <author>
+    <name>IndyDevDan</name>
+    <uri>https://www.youtube.com/channel/UC_x36zCEGilGpB1m-V4gmjg</uri>
+  </author>
+  <published>2023-01-15T00:00:00+00:00</published>
+
+  <entry>
+    <id>yt:video:abc123test</id>
+    <yt:videoId>abc123test</yt:videoId>
+    <yt:channelId>UC_x36zCEGilGpB1m-V4gmjg</yt:channelId>
+    <title>Claude Code Multi-Agent Orchestration Deep Dive</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=abc123test"/>
+    <author>
+      <name>IndyDevDan</name>
+      <uri>https://www.youtube.com/channel/UC_x36zCEGilGpB1m-V4gmjg</uri>
+    </author>
+    <published>2026-02-20T14:00:00+00:00</published>
+    <updated>2026-02-20T14:00:00+00:00</updated>
+    <media:group>
+      <media:title>Claude Code Multi-Agent Orchestration Deep Dive</media:title>
+      <media:content url="https://www.youtube.com/v/abc123test?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/abc123test/hqdefault.jpg" width="480" height="360"/>
+      <media:description>In this video we explore building autonomous agent systems using Claude Code and MCP servers. We cover multi-agent orchestration patterns for software factory automation.</media:description>
+      <media:community>
+        <media:starRating count="500" average="4.9" min="1" max="5"/>
+        <media:statistics views="25000"/>
+      </media:community>
+    </media:group>
+  </entry>
+
+  <entry>
+    <id>yt:video:def456test</id>
+    <yt:videoId>def456test</yt:videoId>
+    <yt:channelId>UC_x36zCEGilGpB1m-V4gmjg</yt:channelId>
+    <title>My Weekend Cooking Adventure</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=def456test"/>
+    <author>
+      <name>IndyDevDan</name>
+      <uri>https://www.youtube.com/channel/UC_x36zCEGilGpB1m-V4gmjg</uri>
+    </author>
+    <published>2026-02-19T10:00:00+00:00</published>
+    <updated>2026-02-19T10:00:00+00:00</updated>
+    <media:group>
+      <media:title>My Weekend Cooking Adventure</media:title>
+      <media:content url="https://www.youtube.com/v/def456test?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/def456test/hqdefault.jpg" width="480" height="360"/>
+      <media:description>Just a fun cooking video where I try to make pasta from scratch. Nothing to do with coding!</media:description>
+      <media:community>
+        <media:starRating count="100" average="4.5" min="1" max="5"/>
+        <media:statistics views="5000"/>
+      </media:community>
+    </media:group>
+  </entry>
+
+  <entry>
+    <id>yt:video:ghi789test</id>
+    <yt:videoId>ghi789test</yt:videoId>
+    <yt:channelId>UC_x36zCEGilGpB1m-V4gmjg</yt:channelId>
+    <title>DevOps CI/CD Pipeline with Docker and Kubernetes</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=ghi789test"/>
+    <author>
+      <name>IndyDevDan</name>
+      <uri>https://www.youtube.com/channel/UC_x36zCEGilGpB1m-V4gmjg</uri>
+    </author>
+    <published>2026-02-18T08:00:00+00:00</published>
+    <updated>2026-02-18T08:00:00+00:00</updated>
+    <media:group>
+      <media:title>DevOps CI/CD Pipeline with Docker and Kubernetes</media:title>
+      <media:content url="https://www.youtube.com/v/ghi789test?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+      <media:thumbnail url="https://i4.ytimg.com/vi/ghi789test/hqdefault.jpg" width="480" height="360"/>
+      <media:description>Setting up a complete CI/CD pipeline with Docker containers and Kubernetes orchestration using GitOps principles.</media:description>
+      <media:community>
+        <media:starRating count="300" average="4.8" min="1" max="5"/>
+        <media:statistics views="15000"/>
+      </media:community>
+    </media:group>
+  </entry>
+</feed>

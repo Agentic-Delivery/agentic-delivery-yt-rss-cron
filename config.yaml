@@ -1,0 +1,25 @@
+# agentic-delivery-yt-rss-cron configuration
+
+polling:
+  interval_minutes: 30      # How often to poll RSS feeds
+  max_videos_per_poll: 20   # Safety limit per poll cycle
+  feed_timeout_seconds: 15  # HTTP timeout for RSS fetch
+
+thresholds:
+  stage1_min_score: 2       # Minimum keyword score to pass Stage 1
+  stage2_min_score: 4       # Minimum metadata score (0-10) to trigger yt-intel
+  max_age_days: 7           # Ignore videos older than this
+
+budget:
+  daily_limit_usd: 5.00     # Max daily spend on claude invocations
+  per_video_usd: 0.50       # Max spend per video analysis
+  model: sonnet             # Claude model to use
+
+trigger:
+  timeout_seconds: 600      # Max time for a single claude -p invocation
+  mcp_config: mcp.json      # Path to MCP config (relative to repo root)
+  skill_file: skill/SKILL.md  # Path to vendored yt-intel skill
+
+logging:
+  level: INFO               # DEBUG, INFO, WARNING, ERROR
+  retain_days: 30           # How many days of logs to keep
