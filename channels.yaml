@@ -35,6 +35,21 @@ channels:
     category: primary
     notes: Kubernetes, DevOps, GitOps
 
+  - name: Olle
+    channel_id: UCd_4nYejJ4kjguPfNanHwvQ
+    category: primary
+    notes: AI coding agents, Claude Code, CLAUDE.md deep dives
+
+  - name: James | AI Systems
+    channel_id: UCUBlhuy24CiEpkkxceUTu3g
+    category: primary
+    notes: Agentic AI, Claude Code, n8n automations
+
+  - name: Steven Erixon
+    channel_id: UCXwl3dV7S6tf3HDXrQpj6jA
+    category: secondary
+    notes: Swedish tech, gaming, tech reviews
+
   # --- Secondary channels ---
 
   - name: Fireship
