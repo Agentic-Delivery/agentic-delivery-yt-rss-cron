@@ -13,7 +13,7 @@ channels.yaml -> poll.sh -> fetch_rss.py (Stage 1: keyword filter, FREE)
                                  |
                            filter_stage2.py (Stage 2: yt-dlp metadata, 2-5s each)
                                  |
-                           [score >= 7/10]
+                           [score >= 6/10]
                                  |
                            trigger.sh -> claude -p (full yt-intel pipeline, ~$0.50 each)
                                  |
@@ -49,7 +49,7 @@ bash install.sh --systemd
 
 **Stage 1** (free): Keyword matching on RSS title + description. Eliminates obviously irrelevant content.
 
-**Stage 2** (2-5s per video): Deterministic scoring on yt-dlp metadata — tag matching, duration filtering, description keyword density, channel category boost. No LLM call. Only videos scoring >= 7/10 proceed.
+**Stage 2** (2-5s per video): Deterministic scoring on yt-dlp metadata — tag matching, duration filtering, description keyword density, channel category boost. No LLM call. Only videos scoring >= 6/10 proceed.
 
 **Stage 3** (existing yt-intel, ~$0.50): Full pipeline for qualifying videos — extract wisdom analysis, DOCX report, Google Drive upload, Discord notification.
 

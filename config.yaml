@@ -7,7 +7,7 @@ polling:
 
 thresholds:
   stage1_min_score: 2       # Minimum keyword score to pass Stage 1
-  stage2_min_score: 7       # Minimum metadata score (0-10) to trigger yt-intel
+  stage2_min_score: 6       # Minimum metadata score (0-10) to trigger yt-intel
   max_age_days: 7           # Ignore videos older than this
 
 budget:
