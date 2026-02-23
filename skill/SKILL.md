@@ -280,6 +280,7 @@ mcp__google-workspace__create_drive_file
 ```
 mcp__google-workspace__get_drive_shareable_link
   file_id: <uploaded DOCX file ID>
+  user_google_email: "burhan@ocut.se"
 ```
 
 Save this link for the Discord message.
