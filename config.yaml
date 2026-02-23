@@ -11,8 +11,6 @@ thresholds:
   max_age_days: 7           # Ignore videos older than this
 
 budget:
-  daily_limit_usd: 5.00     # Max daily spend on claude invocations
-  per_video_usd: 0.50       # Max spend per video analysis
   model: sonnet             # Claude model to use
 
 trigger:

@@ -16,7 +16,6 @@ LOG_FILE="${3:?Usage: trigger.sh <youtube-url> <video-id> <log-file>}"
 # Load config
 CONFIG_FILE="${REPO_ROOT}/config.yaml"
 MODEL=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG_FILE}')); print(c['budget']['model'])")
-PER_VIDEO_USD=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG_FILE}')); print(c['budget']['per_video_usd'])")
 TIMEOUT=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG_FILE}')); print(c['trigger']['timeout_seconds'])")
 MCP_CONFIG="${REPO_ROOT}/$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG_FILE}')); print(c['trigger']['mcp_config'])")"
 SKILL_FILE="${REPO_ROOT}/$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG_FILE}')); print(c['trigger']['skill_file'])")"
@@ -30,14 +29,6 @@ SKILL_CONTENT=$(cat "$SKILL_FILE")
 
 # Ensure working directory exists
 mkdir -p /tmp/yt-intel
-
-# Record budget before invocation
-python3 -c "
-import sys
-sys.path.insert(0, '${REPO_ROOT}/lib')
-from budget import record_spend
-record_spend(${PER_VIDEO_USD})
-"
 
 # Construct prompt
 PROMPT="You are running the yt-intel pipeline in UNATTENDED mode. Process this video and complete all steps.
@@ -60,7 +51,6 @@ echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] TRIGGER: ${VIDEO_ID} — ${URL}" | tee -a
 
 if timeout "${TIMEOUT}" claude -p "$PROMPT" \
     --model "$MODEL" \
-    --max-budget-usd "$PER_VIDEO_USD" \
     --mcp-config "$MCP_CONFIG" \
     --dangerously-skip-permissions \
     >> "$LOG_FILE" 2>&1; then

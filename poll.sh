@@ -52,9 +52,6 @@ trap 'rm -f "$PID_FILE"' EXIT
 
 # Load config values
 INTERVAL=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG}')); print(c['polling']['interval_minutes'])")
-DAILY_LIMIT=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG}')); print(c['budget']['daily_limit_usd'])")
-PER_VIDEO=$(python3 -c "import yaml; c=yaml.safe_load(open('${CONFIG}')); print(c['budget']['per_video_usd'])")
-
 LOG_FILE="${LOG_DIR}/$(date -u +%Y-%m-%d).log"
 
 log() {
@@ -64,20 +61,6 @@ log() {
 run_cycle() {
     log "=== Poll cycle starting ==="
     log "Mode: $(${DRY_RUN} && echo 'DRY RUN' || echo 'LIVE')"
-
-    # Budget check
-    BUDGET_OK=$(python3 -c "
-import sys
-sys.path.insert(0, '${REPO_ROOT}/lib')
-from budget import can_spend, get_summary
-print(get_summary(), file=sys.stderr)
-print('yes' if can_spend(${DAILY_LIMIT}, ${PER_VIDEO}) else 'no')
-" 2>>"$LOG_FILE")
-
-    if [[ "$BUDGET_OK" != "yes" ]]; then
-        log "BUDGET EXHAUSTED — skipping this cycle"
-        return 0
-    fi
 
     # Stage 1: RSS fetch + keyword filter
     log "Stage 1: Fetching RSS feeds..."
@@ -134,18 +117,6 @@ import json, sys
 for v in json.load(sys.stdin):
     print(f\"{v['video_id']}\t{v['url']}\t{v['title']}\t{v['stage2_score']}\")
 " | while IFS=$'\t' read -r VID_ID VID_URL VID_TITLE VID_SCORE; do
-        # Budget check before each invocation
-        BUDGET_OK=$(python3 -c "
-import sys
-sys.path.insert(0, '${REPO_ROOT}/lib')
-from budget import can_spend
-print('yes' if can_spend(${DAILY_LIMIT}, ${PER_VIDEO}) else 'no')
-")
-        if [[ "$BUDGET_OK" != "yes" ]]; then
-            log "BUDGET EXHAUSTED — stopping triggers"
-            break
-        fi
-
         log "TRIGGERING: [${VID_SCORE}/10] ${VID_TITLE}"
         if bash "${REPO_ROOT}/lib/trigger.sh" "$VID_URL" "$VID_ID" "$LOG_FILE"; then
             # Mark as processed
