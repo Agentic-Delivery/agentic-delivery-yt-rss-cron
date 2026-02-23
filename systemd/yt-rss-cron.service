@@ -8,6 +8,7 @@ Type=oneshot
 WorkingDirectory=REPO_ROOT_PLACEHOLDER
 ExecStart=/usr/bin/bash REPO_ROOT_PLACEHOLDER/poll.sh
 Environment=HOME=/home/USER_PLACEHOLDER
+Environment=PATH=/home/USER_PLACEHOLDER/.local/bin:/usr/local/bin:/usr/bin:/bin
 TimeoutStartSec=900
 
 [Install]
