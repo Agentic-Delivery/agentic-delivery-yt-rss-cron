@@ -253,22 +253,24 @@ The Google Workspace MCP restricts `file://` URLs to `ALLOWED_FILE_DIRS` (`$HOME
 
 ```
 mcp__google-workspace__create_drive_file
-  name: "YYYY-MM-DD_<video-title-slug>_<channel-slug>_extract-wisdom.docx"
+  file_name: "YYYY-MM-DD_<video-title-slug>_<channel-slug>_extract-wisdom.docx"
   fileUrl: "file:///tmp/yt-intel/<filename>.docx"
   folder_id: "1ISaW-3u8Kcrl_sfnGUR8pYfivlmazFzD"
-  include_items_from_all_drives: true
+  user_google_email: "burhan@ocut.se"
 ```
 
 **Folder:** `05-YouTube-Intelligence/Summaries/` (ID: `1ISaW-3u8Kcrl_sfnGUR8pYfivlmazFzD`)
+
+**IMPORTANT:** If `create_drive_file` uploads with wrong MIME type (e.g. `text/plain`), the DOCX will render as garbage on Drive. Verify the upload is `application/vnd.openxmlformats-officedocument.wordprocessingml.document`. If it fails, copy the DOCX to `$HOME` first and retry from there.
 
 ### 5c. Upload clean transcript
 
 ```
 mcp__google-workspace__create_drive_file
-  name: "YYYY-MM-DD_<video-title-slug>_transcript.txt"
+  file_name: "YYYY-MM-DD_<video-title-slug>_transcript.txt"
   fileUrl: "file:///tmp/yt-intel/transcript_clean.txt"
   folder_id: "1IZBTofol-NwDEPWRzpc_HOy8PVr2JsXy"
-  include_items_from_all_drives: true
+  user_google_email: "burhan@ocut.se"
 ```
 
 **Folder:** `05-YouTube-Intelligence/Transcripts/` (ID: `1IZBTofol-NwDEPWRzpc_HOy8PVr2JsXy`)
