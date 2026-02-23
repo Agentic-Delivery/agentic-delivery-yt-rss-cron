@@ -118,7 +118,7 @@ for v in json.load(sys.stdin):
     print(f\"{v['video_id']}\t{v['url']}\t{v['title']}\t{v['stage2_score']}\")
 " | while IFS=$'\t' read -r VID_ID VID_URL VID_TITLE VID_SCORE; do
         log "TRIGGERING: [${VID_SCORE}/10] ${VID_TITLE}"
-        if bash "${REPO_ROOT}/lib/trigger.sh" "$VID_URL" "$VID_ID" "$LOG_FILE"; then
+        if bash "${REPO_ROOT}/lib/trigger.sh" "$VID_URL" "$VID_ID" "$LOG_FILE" < /dev/null; then
             # Mark as processed
             python3 -c "
 import sys, json
