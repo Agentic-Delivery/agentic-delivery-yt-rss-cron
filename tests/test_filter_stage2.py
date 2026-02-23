@@ -53,23 +53,26 @@ class TestStage2Scoring(unittest.TestCase):
         self.assertGreaterEqual(score, 4.0)
         self.assertIn("primary_channel", reasons)
 
-    def test_duration_sweet_spot(self):
+    def test_depth_score_format(self):
+        """Duration contributes to depth score reported as depth=X.XX(dur=Ns,ch=N)."""
         candidate = self._make_candidate()
         metadata = {"duration": 600, "tags": [], "description": "", "title": ""}
         score, reasons = score_metadata(candidate, metadata, KEYWORD_GROUPS)
-        self.assertIn("duration_ok", reasons)
+        self.assertTrue(any(r.startswith("depth=") for r in reasons))
 
-    def test_too_short(self):
+    def test_short_video_capped(self):
+        """Videos under 2 minutes get a short_cap applied."""
         candidate = self._make_candidate()
         metadata = {"duration": 30, "tags": [], "description": "", "title": ""}
         score, reasons = score_metadata(candidate, metadata, KEYWORD_GROUPS)
-        self.assertIn("too_short", reasons)
+        self.assertTrue(any("short_cap=" in r for r in reasons))
 
-    def test_very_long(self):
+    def test_long_video_depth(self):
+        """Very long videos still get scored via depth component."""
         candidate = self._make_candidate()
         metadata = {"duration": 20000, "tags": [], "description": "", "title": ""}
         score, reasons = score_metadata(candidate, metadata, KEYWORD_GROUPS)
-        self.assertIn("very_long", reasons)
+        self.assertTrue(any(r.startswith("depth=") and "dur=20000s" in r for r in reasons))
 
     def test_primary_channel_boost(self):
         candidate_primary = self._make_candidate("primary")
@@ -79,21 +82,21 @@ class TestStage2Scoring(unittest.TestCase):
         score_s, _ = score_metadata(candidate_secondary, metadata, KEYWORD_GROUPS)
         self.assertGreater(score_p, score_s)
 
-    def test_high_views_bonus(self):
+    def test_social_score_format(self):
+        """High views + engagement produce a social=X.X reason."""
         candidate = self._make_candidate()
         metadata = {"duration": 600, "tags": [], "description": "", "title": "", "view_count": 100000, "like_count": 5000}
         score, reasons = score_metadata(candidate, metadata, KEYWORD_GROUPS)
-        self.assertIn("high_views", reasons)
-        self.assertIn("high_engagement", reasons)
+        self.assertTrue(any(r.startswith("social=") for r in reasons))
 
-    def test_chapters_bonus(self):
+    def test_chapters_improve_depth(self):
+        """Videos with chapters get a higher depth score than without."""
         candidate = self._make_candidate()
-        metadata = {
-            "duration": 600, "tags": [], "description": "", "title": "",
-            "chapters": [{"title": "Intro"}, {"title": "Main"}, {"title": "Outro"}]
-        }
-        score, reasons = score_metadata(candidate, metadata, KEYWORD_GROUPS)
-        self.assertIn("has_chapters", reasons)
+        base_meta = {"duration": 1800, "tags": [], "description": "", "title": ""}
+        meta_with_ch = {**base_meta, "chapters": [{"title": f"Ch{i}"} for i in range(5)]}
+        score_no_ch, _ = score_metadata(candidate, base_meta, KEYWORD_GROUPS)
+        score_ch, _ = score_metadata(candidate, meta_with_ch, KEYWORD_GROUPS)
+        self.assertGreater(score_ch, score_no_ch)
 
     def test_keyword_in_tags(self):
         candidate = self._make_candidate()

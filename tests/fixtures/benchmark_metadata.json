@@ -1,0 +1,546 @@
+{
+  "bDcgHzCBgmQ": {
+    "id": "bDcgHzCBgmQ",
+    "title": "The 5 Levels of AI Coding (Why Most of You Won't Make It Past Level 2)",
+    "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/the-5-level-framework-that-explains?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n_______________________________________\nWhat's really happening when 90% of Claude Code was written by Claude Code, yet most developers using AI get measurably slower? The common story is that AI coding tools make everyone faster\u2014but the reality is more complicated when a rigorous study found experienced developers took 19% longer while believing they were 24% faster.\n\nIn this video, I share the inside scoop on why the gap between dark factories and everyone else is the most important divide in tech:\n\n \u2022 Why StrongDM's three-person team ships production software with no human-written or human-reviewed code\n \u2022 How the five levels of vibe coding reveal that 90% of developers plateau at level three\n \u2022 What external scenarios and digital twin universes solve that traditional tests cannot\n \u2022 Where the bottleneck has moved from implementation speed to specification quality\n\nFor engineering leaders watching the frontier pull away, this is not a tool problem\u2014it's a people problem, a culture problem, and a willingness-to-change problem that no vendor can close.\n\nChapters\n00:00 The Gap Between Dark Factories and Everyone Else\n02:42 The Five Levels of Vibe Coding\n06:35 What Level Five Actually Looks Like\n09:02 Scenarios vs Tests: Why the Distinction Matters\n11:29 Digital Twin Universe for Autonomous Development\n13:07 The Self-Referential Loop at Anthropic and OpenAI\n16:37 Why Experienced Developers Get 19% Slower\n21:06 Organizational Structures Built for Humans\n25:13 The Bottleneck Moves to Spec Quality\n25:54 The Brownfield Reality Most Companies Face\n30:34 The Junior Developer Pipeline Is Collapsing\n34:17 Hiring Shifts Toward Generalists\n37:29 What AI-Native Org Shapes Look Like\n40:03 The Restructuring That's Coming\n41:13 Demand for Software Never Saturates\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/",
+    "duration": 2534,
+    "view_count": 147426,
+    "like_count": 5224,
+    "tags": [
+      "AI strategy",
+      "AI coding tools",
+      "software development",
+      "dark factory",
+      "Claude Code",
+      "Codex",
+      "vibe coding",
+      "AI productivity",
+      "future of work",
+      "AI agents",
+      "automation at work",
+      "software engineering",
+      "AI career advice",
+      "StrongDM",
+      "specification",
+      "AI strategy for teams"
+    ],
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "The Gap Between Dark Factories and Everyone Else",
+        "end_time": 162.0
+      },
+      {
+        "start_time": 162.0,
+        "title": "The Five Levels of Vibe Coding",
+        "end_time": 395.0
+      },
+      {
+        "start_time": 395.0,
+        "title": "What Level Five Actually Looks Like",
+        "end_time": 542.0
+      },
+      {
+        "start_time": 542.0,
+        "title": "Scenarios vs Tests: Why the Distinction Matters",
+        "end_time": 689.0
+      },
+      {
+        "start_time": 689.0,
+        "title": "Digital Twin Universe for Autonomous Development",
+        "end_time": 787.0
+      },
+      {
+        "start_time": 787.0,
+        "title": "The Self-Referential Loop at Anthropic and OpenAI",
+        "end_time": 997.0
+      },
+      {
+        "start_time": 997.0,
+        "title": "Why Experienced Developers Get 19% Slower",
+        "end_time": 1266.0
+      },
+      {
+        "start_time": 1266.0,
+        "title": "Organizational Structures Built for Humans",
+        "end_time": 1513.0
+      },
+      {
+        "start_time": 1513.0,
+        "title": "The Bottleneck Moves to Spec Quality",
+        "end_time": 1554.0
+      },
+      {
+        "start_time": 1554.0,
+        "title": "The Brownfield Reality Most Companies Face",
+        "end_time": 1834.0
+      },
+      {
+        "start_time": 1834.0,
+        "title": "The Junior Developer Pipeline Is Collapsing",
+        "end_time": 2057.0
+      },
+      {
+        "start_time": 2057.0,
+        "title": "Hiring Shifts Toward Generalists",
+        "end_time": 2249.0
+      },
+      {
+        "start_time": 2249.0,
+        "title": "What AI-Native Org Shapes Look Like",
+        "end_time": 2403.0
+      },
+      {
+        "start_time": 2403.0,
+        "title": "The Restructuring That's Coming",
+        "end_time": 2473.0
+      },
+      {
+        "start_time": 2473.0,
+        "title": "Demand for Software Never Saturates",
+        "end_time": 2534
+      }
+    ],
+    "channel_id": "UC0C-17n9iuUQPylguM1d-lQ",
+    "uploader": "AI News & Strategy Daily | Nate B Jones",
+    "upload_date": "20260218",
+    "channel_category": "primary"
+  },
+  "41UDGsBEjoI": {
+    "id": "41UDGsBEjoI",
+    "title": "Codex 5.3 vs Opus 4.6: The Benchmark Nobody Expected. (How to STOP Picking the Wrong Agent)",
+    "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/codex-53-vs-opus-46-two-agent-philosophies?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n_______________________________________\nWhat's really happening when two competing visions of AI agents ship 20 minutes apart? The common story is that this is a benchmark race\u2014but the reality is more complicated when the choice between Codex and Claude determines how your entire week changes.\n\nIn this video, I share the inside scoop on why OpenAI and Anthropic built fundamentally different answers to the same question:\n\n \u2022 Why Codex bets on autonomous correctness while Claude bets on integration and coordination\n \u2022 How the three-layer orchestrator architecture enables hand-it-off-and-walk-away work\n \u2022 What Agent Teams with peer-to-peer messaging means for interdependent problems\n \u2022 Where the meta-skill of evaluating new capabilities becomes the durable advantage\n\nFor knowledge workers choosing between delegation-shaped problems and coordination-shaped problems, the right question is not which tool wins\u2014it's which organizational muscle you want to build.\n\nChapters\n00:00 Two Visions Ship 20 Minutes Apart\n02:30 Codex as Employee vs Claude as Team\n06:05 Codex Benchmarks: 12 Points Ahead on Terminal Bench\n07:48 The First Model That Helped Build Itself\n09:31 The Codex Desktop App: A Command Center\n11:57 The Three-Layer Trust Architecture\n15:17 Non-Coding Uses: Meeting Transcripts to Regulatory Filings\n17:56 Opus 4.6: Integration Over Isolation\n20:16 Agent Teams With Peer-to-Peer Coordination\n22:36 Three Questions for Choosing Between Them\n25:35 Which Approach Ages Better\n28:01 The Meta-Skill That Becomes Durable\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/",
+    "duration": 1701,
+    "view_count": 74075,
+    "like_count": 2196,
+    "tags": [
+      "AI strategy",
+      "AI agents",
+      "Codex",
+      "Claude",
+      "Anthropic",
+      "OpenAI",
+      "Opus 4.6",
+      "AI coding tools",
+      "agentic AI",
+      "automation at work",
+      "AI productivity",
+      "future of work",
+      "Claude Code",
+      "AI workflow",
+      "enterprise AI",
+      "AI strategy for teams"
+    ],
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Two Visions Ship 20 Minutes Apart",
+        "end_time": 150.0
+      },
+      {
+        "start_time": 150.0,
+        "title": "Codex as Employee vs Claude as Team",
+        "end_time": 365.0
+      },
+      {
+        "start_time": 365.0,
+        "title": "Codex Benchmarks: 12 Points Ahead on Terminal Bench",
+        "end_time": 468.0
+      },
+      {
+        "start_time": 468.0,
+        "title": "The First Model That Helped Build Itself",
+        "end_time": 571.0
+      },
+      {
+        "start_time": 571.0,
+        "title": "The Codex Desktop App: A Command Center",
+        "end_time": 717.0
+      },
+      {
+        "start_time": 717.0,
+        "title": "The Three-Layer Trust Architecture",
+        "end_time": 917.0
+      },
+      {
+        "start_time": 917.0,
+        "title": "Non-Coding Uses: Meeting Transcripts to Regulatory Filings",
+        "end_time": 1076.0
+      },
+      {
+        "start_time": 1076.0,
+        "title": "Opus 4.6: Integration Over Isolation",
+        "end_time": 1216.0
+      },
+      {
+        "start_time": 1216.0,
+        "title": "Agent Teams With Peer-to-Peer Coordination",
+        "end_time": 1356.0
+      },
+      {
+        "start_time": 1356.0,
+        "title": "Three Questions for Choosing Between Them",
+        "end_time": 1535.0
+      },
+      {
+        "start_time": 1535.0,
+        "title": "Which Approach Ages Better",
+        "end_time": 1681.0
+      },
+      {
+        "start_time": 1681.0,
+        "title": "The Meta-Skill That Becomes Durable",
+        "end_time": 1701
+      }
+    ],
+    "channel_id": "UC0C-17n9iuUQPylguM1d-lQ",
+    "uploader": "AI News & Strategy Daily | Nate B Jones",
+    "upload_date": "20260216",
+    "channel_category": "primary"
+  },
+  "uvs1Igr4u6g": {
+    "id": "uvs1Igr4u6g",
+    "title": "How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)",
+    "description": "Agent Teams in Claude Code let you spin up multiple agents that work in parallel AND communicate with each other - and that changes everything about how you build with AI. But here's the thing: if you just throw a vague prompt at an agent team, you're going to get a mess - guaranteed.\n\nIn this video, I do a full live build of a Chargebee payment integration on top of an existing app using Claude Code Agent Teams. I walk through the entire process - priming the agent on the codebase, having it ask me questions to reduce its assumptions, creating a structured plan, and then sending that plan into a team of 3 agents working in parallel. Plus I show you the contract-first approach that makes agent teams actually reliable, and end-to-end browser validation that catches every issue before control passes back to you.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nIf you're looking to build a payment integration into your applications, check out Chargebee!\n\nhttps://tinyurl.com/chargebee-payments\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: \nhttps://dynamous.ai/agentic-coding-course\n\n- Here is the branch with my final implementation:\nhttps://github.com/coleam00/agentic-chat-application-template/tree/feature/chargebee-token-billing\n\n- Claude Code Agent Teams documentation:\nhttps://code.claude.com/docs/en/agent-teams\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n0:00 Introduction to Claude Code Agent Teams\n3:49 What We're Building Today\n7:50 The Planning and Priming Process\n11:22 Getting Our Agent to Ask Questions (Very Powerful)\n18:12 Creating the Structured Plan\n31:01 Implementing with Parallel Agents (Our Team)\n40:45 End-to-End Browser Validation\n48:00 Final Demo\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoin me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!",
+    "duration": 3021,
+    "view_count": 23073,
+    "like_count": 378,
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "ai agents",
+      "software engineering",
+      "software development",
+      "coding",
+      "automation",
+      "saas",
+      "development",
+      "claude",
+      "claude code",
+      "claude code agent teams",
+      "agent teams",
+      "ai coding",
+      "agentic engineering",
+      "ai coding guide",
+      "claude code cli",
+      "live build",
+      "live ai build",
+      "live ai coding",
+      "ai coding session",
+      "ai planning",
+      "ai coding validation",
+      "ai coding reliability",
+      "claude opus 4.6",
+      "claude agent team",
+      "opus 4.6",
+      "chargbee",
+      "agentic app",
+      "payment integration",
+      "ai payment integration"
+    ],
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Introduction to Claude Code Agent Teams",
+        "end_time": 229.0
+      },
+      {
+        "start_time": 229.0,
+        "title": "What We're Building Today",
+        "end_time": 470.0
+      },
+      {
+        "start_time": 470.0,
+        "title": "The Planning and Priming Process",
+        "end_time": 682.0
+      },
+      {
+        "start_time": 682.0,
+        "title": "Getting Our Agent to Ask Questions (Very Powerful)",
+        "end_time": 1092.0
+      },
+      {
+        "start_time": 1092.0,
+        "title": "Creating the Structured Plan",
+        "end_time": 1861.0
+      },
+      {
+        "start_time": 1861.0,
+        "title": "Implementing with Parallel Agents (Our Team)",
+        "end_time": 2445.0
+      },
+      {
+        "start_time": 2445.0,
+        "title": "End-to-End Browser Validation",
+        "end_time": 2880.0
+      },
+      {
+        "start_time": 2880.0,
+        "title": "Final Demo",
+        "end_time": 3021
+      }
+    ],
+    "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+    "uploader": "Cole Medin",
+    "upload_date": "20260216",
+    "channel_category": "primary"
+  },
+  "efctPj6bjCY": {
+    "id": "efctPj6bjCY",
+    "title": "My 4-Layer Claude Code Playwright CLI Skill  (Agentic Browser Automation)",
+    "description": "If your agents can't use a browser, you're still doing MANUAL WORK that should have been automated YESTERDAY. \ud83d\udd25\n\nStop typing URLs, clicking buttons, and babysitting test suites. Your agents should be doing that FOR you, in parallel, while you focus on what actually matters.\n\n\ud83c\udfa5 VIDEO REFERENCES\n\u2022 Bowser Codebase: https://github.com/disler/bowser\n\u2022 Playwright CLI (Microsoft): https://github.com/microsoft/playwright-cli\n\u2022 Claude Code Chrome Docs: https://docs.anthropic.com/en/docs/claude-code/chrome\n\nPUSH YOUR AGENTIC CODING BEYOND\nTactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=efctPj6bjCY\n\n\ud83d\ude80 In this video, we break down a complete 4-layer agentic browser automation stack built for real engineering work. From automating Amazon shopping workflows to spinning up parallel UI testing agents across Hacker News, this is browser automation and UI testing done the agentic way. No fluff, no toy demos. Watch Claude Code fire up real browsers, execute real tasks, and report back with screenshots and pass/fail results.\n\n\ud83d\udee0\ufe0f Here's the stack: Layer 1 is Skills, the foundational capability layer where Playwright CLI and Claude Code Chrome give your agents the raw ability to control browsers. Layer 2 is Subagents, where you scale those skills into specialized, parallelized browser agents that can each tackle different user stories simultaneously. Layer 3 is Slash Commands, the orchestration layer where reusable prompts coordinate teams of subagents to run entire UI review suites or browser automation workflows. Layer 4 is Just, a powerful task runner that gives you one-command reusability across every layer of the stack.\n\n\ud83d\udd25 Why agentic browser automation and agentic UI testing over traditional frameworks like Jest or Vitest? Because your agents operate like real users. No test configuration overhead. No brittle selectors. Just user stories, URLs, and agents that validate your application the way a human would, complete with screenshot trails for every step. And with parallel testing via Playwright CLI, you can run three, five, ten browser agents at once.\n\n\ud83d\udca1 Key takeaways:\n\nSkills: The foundational capability layer. Playwright CLI gives you token-efficient, headless, parallel browser sessions. Claude Code Chrome lets you use your existing browser session for personal automation.\n\nSubagents: Scale your skills into specialized agents. Each subagent can run a different user story, a different workflow, or a different browser automation task in parallel.\n\nSlash Commands: The orchestration layer. Higher-order prompts and reusable commands let you coordinate agent teams, template your engineering, and trigger complex workflows with a single command.\n\nJust Files: The reusability layer. One place to call every workflow, every agent, every automation. Your team and your agents always know what's available.\n\nAgentic Engineering: Don't outsource learning how to build with agents. Master the skill, subagent, command, and reusability layers yourself. Specialization combined with scale is where the real leverage lives.\n\n\ud83c\udf1f The meta theme: solve entire CLASSES of problems, not just individual tasks. Template your engineering into repeat, opinionated solutions you can deploy across any codebase. Master the agent, master knowledge work.\n\nStay focused and keep building.\n\n#browserautomation #claudecode #agenticcoding",
+    "duration": 1635,
+    "view_count": 16460,
+    "like_count": 610,
+    "tags": [],
+    "chapters": null,
+    "channel_id": "UC_x36zCEGilGpB1m-V4gmjg",
+    "uploader": "IndyDevDan",
+    "upload_date": "20260216",
+    "channel_category": "primary"
+  },
+  "Y3PIZtR9gik": {
+    "id": "Y3PIZtR9gik",
+    "title": "CLAUDE.md: The File That Controls Your AI Coding Agent",
+    "description": "In this video I walk through the most overlooked file in any Claude Code project, CLAUDE.md. This is the file that gives Claude permanent context about your codebase, your architecture decisions, and your project vision, so you stop re-explaining the same things every conversation. \n\nGrab the CLAUDE.md/AGENTS.md generator template on dotctx: https://www.dotctx.ai/products/claude-md-architect-zdMUh8\n\nTimestamps:\n00:00 \u2013 The file most people skip\n01:33 \u2013 What CLAUDE.md is (and agents.md)\n00:55 \u2013 Why your project vision matters most\n02:55 \u2013 Tech stack, code style, and constraints\n03:55 \u2013 The hierarchy system\n05:05 \u2013 The skill trick \u2014 let Claude write it for you\n06:18 \u2013 Where to start\n06:40 \u2013 My skills\n\nLinks:\nContext Marketplace: https://www.dotctx.ai\nClaude Code docs: https://docs.anthropic.com/en/docs/claude-code\n\nFIND ME ON SOCIAL\nX/Twitter: https://x.com/OlleDyberg\nYouTube: @olleai\nTikTok: https://www.tiktok.com/@olleai\n\n#claudecode #claudemd #contextengineering #aiagents #aicoding",
+    "duration": 439,
+    "view_count": 100,
+    "like_count": 7,
+    "tags": [],
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "The file most people skip",
+        "end_time": 93.0
+      },
+      {
+        "start_time": 93.0,
+        "title": "What CLAUDE.md is (and agents.md)",
+        "end_time": 175.0
+      },
+      {
+        "start_time": 175.0,
+        "title": "Tech stack, code style, and constraints",
+        "end_time": 235.0
+      },
+      {
+        "start_time": 235.0,
+        "title": "The hierarchy system",
+        "end_time": 305.0
+      },
+      {
+        "start_time": 305.0,
+        "title": "The skill trick \u2014 let Claude write it for you",
+        "end_time": 378.0
+      },
+      {
+        "start_time": 378.0,
+        "title": "Where to start",
+        "end_time": 400.0
+      },
+      {
+        "start_time": 400.0,
+        "title": "My skills",
+        "end_time": 439
+      }
+    ],
+    "channel_id": "UCd_4nYejJ4kjguPfNanHwvQ",
+    "uploader": "Olle",
+    "upload_date": "20260219",
+    "channel_category": "primary"
+  },
+  "60G93MXT4DI": {
+    "id": "60G93MXT4DI",
+    "title": "Why the Best AI Coding Tools Abandoned RAG (And What They Use Instead)",
+    "description": "Claude Code, Cline, Aider, Codex CLI - every top AI coding tool has abandoned traditional RAG and embeddings. But for enterprise knowledge bases, RAG is a $2B market growing 50% per year, and it's ~100x cheaper per query than full context loading.\n\nSo is RAG dead or not? Both sides are right - they're just talking about different problems. Code is structured and perfectly searchable with grep. Business documents aren't. In this video I break down where the line is and what to use on each side.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nThe best way to learn to code is with Scrimba - start free and get 20% off the Pro plan:\n\n- Fullstack Developer Path (featured in this video): https://scrimba.com/fullstack-path-c0fullstack?via=colemedin\n\n- All Scrimba coding courses (many free): \nhttps://scrimba.com/courses?via=colemedin\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: \nhttps://dynamous.ai/agentic-coding-course\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nSources:\n\n- Boris Cherny / Claude Code on agentic search:\nhttps://smartscope.blog/en/ai-development/practices/rag-debate-agentic-search-code-exploration/\n\n- Why Cline doesn't use RAG for AI coding:\nhttps://pashpashpash.substack.com/p/why-i-no-longer-recommend-rag-for\n\n- LlamaIndex - Agentic Retrieval:\nhttps://www.llamaindex.ai/blog/rag-is-dead-long-live-agentic-retrieval\n\n- Aider repo map (Tree-sitter approach):\nhttps://aider.chat/docs/repomap.html\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n0:00 Is RAG Dead?\n0:55 All Search is RAG (but not Semantic Search)\n1:52 Structured vs. Unstructured Data\n4:09 Why RAG Fails for Code\n6:22 Scrimba\n7:29 Agentic Search in Practice\n11:05 When to Use Traditional RAG\n13:12 Bridging Both Retrieval Strategies\n14:35 Final Thoughts\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoin me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!",
+    "duration": 893,
+    "view_count": 28051,
+    "like_count": 776,
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "ai agents",
+      "software engineering",
+      "software development",
+      "coding",
+      "automation",
+      "saas",
+      "development",
+      "rag",
+      "is rag dead",
+      "rag dead",
+      "claude code",
+      "agentic rag",
+      "agentic search",
+      "ai agent search",
+      "ai rag",
+      "llm rag",
+      "claude code rag",
+      "aider",
+      "cline",
+      "aider rag",
+      "cline rag",
+      "codebase indexing",
+      "code rag",
+      "codebase rag",
+      "ai search",
+      "ripgrep",
+      "grep",
+      "ai coding rag",
+      "rag guide",
+      "ai coding guide",
+      "ai coding tutorial"
+    ],
+    "chapters": [
+      {
+        "start_time": 0.0,
+        "title": "Is RAG Dead?",
+        "end_time": 55.0
+      },
+      {
+        "start_time": 55.0,
+        "title": "All Search is RAG (but not Semantic Search)",
+        "end_time": 112.0
+      },
+      {
+        "start_time": 112.0,
+        "title": "Structured vs. Unstructured Data",
+        "end_time": 249.0
+      },
+      {
+        "start_time": 249.0,
+        "title": "Why RAG Fails for Code",
+        "end_time": 382.0
+      },
+      {
+        "start_time": 382.0,
+        "title": "Scrimba",
+        "end_time": 449.0
+      },
+      {
+        "start_time": 449.0,
+        "title": "Agentic Search in Practice",
+        "end_time": 665.0
+      },
+      {
+        "start_time": 665.0,
+        "title": "When to Use Traditional RAG",
+        "end_time": 792.0
+      },
+      {
+        "start_time": 792.0,
+        "title": "Bridging Both Retrieval Strategies",
+        "end_time": 875.0
+      },
+      {
+        "start_time": 875.0,
+        "title": "Final Thoughts",
+        "end_time": 893
+      }
+    ],
+    "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+    "uploader": "Cole Medin",
+    "upload_date": "20260219",
+    "channel_category": "primary"
+  },
+  "xaNZIoQETWw": {
+    "id": "xaNZIoQETWw",
+    "title": "Claude Cowork Full Walkthrough \u2014 What It Is, How To Use It, And Is It Safe",
+    "description": "Claude Cowork Full Walkthrough \u2014 What It Is, How To Use It, And Is It Safe?\nIn this video I walk through everything you need to know to get started with Claude Cowork \u2014 Anthropic's agentic desktop tool for knowledge work.\n\n\ud83d\udd17 Links mentioned:\n\nGetting Started with Cowork: https://support.claude.com/en/articles/13345190-getting-started-with-cowork\nUsing Cowork Safely: https://support.claude.com/en/articles/13364135-using-cowork-safely\nClaude in Chrome Safety: https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely\nAgent Skills open standard: https://agentskills.io/home\nAnthropic plugins on GitHub: https://github.com/anthropics/knowledge-work-plugins",
+    "duration": 1098,
+    "view_count": 27,
+    "like_count": null,
+    "tags": [],
+    "chapters": null,
+    "channel_id": "UCUBlhuy24CiEpkkxceUTu3g",
+    "uploader": "James | AI Systems",
+    "upload_date": "20260222",
+    "channel_category": "primary"
+  },
+  "FDYhPXYDS_o": {
+    "id": "FDYhPXYDS_o",
+    "title": "This Free Tool Makes Claude Code 10x Better",
+    "description": "Claude Code is incredibly powerful, but reviewing changes across multiple files and managing parallel sessions gets messy fast. Kintsugi is a free Agentic Development Environment (ADE) built on top of Claude Code by the team at Sonar (makers of SonarQube). It doesn't replace Claude Code - it gives you a visual layer to orchestrate sessions, review AI-generated code like a PR, and catch quality issues before they ship.\n\n\ud83d\udd17 Try Kintsugi (free): https://fandf.co/4afFFBc\n\nKintsugi is macOS only and still in its early experimental phase \u2014 the team is actively looking for Claude Code users to provide feedback.",
+    "duration": 123,
+    "view_count": 17145,
+    "like_count": 485,
+    "tags": [
+      "ai",
+      "artificial intelligence",
+      "ai agents",
+      "software engineering",
+      "software development",
+      "coding",
+      "automation",
+      "saas",
+      "development",
+      "claude code",
+      "claude code guide",
+      "parallel claude code agents",
+      "ai coding",
+      "agentic engineering",
+      "ai coding assistants",
+      "sonar sonarqube",
+      "kintsugi",
+      "kintsugi ai coding",
+      "kintsugi sonar",
+      "parallel ai coding",
+      "claude code integration",
+      "ai code reviews",
+      "ai security",
+      "llm security",
+      "ai code security",
+      "ai code security review"
+    ],
+    "chapters": null,
+    "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+    "uploader": "Cole Medin",
+    "upload_date": "20260220",
+    "channel_category": "primary"
+  },
+  "_ykT_l4e8F8": {
+    "id": "_ykT_l4e8F8",
+    "title": "Why Codex lets you hand off AI coding and walk away #ai #codex #futureofwork",
+    "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/codex-53-vs-opus-46-two-agent-philosophies?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n_______________________________________\nWhat's really happening when two competing visions of AI agents ship 20 minutes apart? The common story is that this is a benchmark race\u2014but the reality is more complicated when the choice between Codex and Claude determines how your entire week changes.\n\nIn this video, I share the inside scoop on why OpenAI and Anthropic built fundamentally different answers to the same question:\n\n \u2022 Why Codex bets on autonomous correctness while Claude bets on integration and coordination\n \u2022 How the three-layer orchestrator architecture enables hand-it-off-and-walk-away work\n \u2022 What Agent Teams with peer-to-peer messaging means for interdependent problems\n \u2022 Where the meta-skill of evaluating new capabilities becomes the durable advantage\n\nFor knowledge workers choosing between delegation-shaped problems and coordination-shaped problems, the right question is not which tool wins\u2014it's which organizational muscle you want to build.\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/",
+    "duration": 102,
+    "view_count": 15293,
+    "like_count": 552,
+    "tags": [
+      "AI strategy",
+      "AI agents",
+      "Codex",
+      "Claude",
+      "Anthropic",
+      "OpenAI",
+      "Opus 4.6",
+      "AI coding tools",
+      "agentic AI",
+      "automation at work",
+      "AI productivity",
+      "future of work",
+      "Claude Code",
+      "AI workflow",
+      "enterprise AI",
+      "AI strategy for teams"
+    ],
+    "chapters": null,
+    "channel_id": "UC0C-17n9iuUQPylguM1d-lQ",
+    "uploader": "AI News & Strategy Daily | Nate B Jones",
+    "upload_date": "20260220",
+    "channel_category": "primary"
+  },
+  "-P79jTyYtWA": {
+    "id": "-P79jTyYtWA",
+    "title": "Anthropic built a Compiler",
+    "description": "Anthropic built a Compiler #short",
+    "duration": 53,
+    "view_count": 188830,
+    "like_count": 4704,
+    "tags": [],
+    "chapters": null,
+    "channel_id": "UCUyeluBRhGPCW4rPe_UvBZQ",
+    "uploader": "The PrimeTime",
+    "upload_date": "20260222",
+    "channel_category": "secondary"
+  }
+}
