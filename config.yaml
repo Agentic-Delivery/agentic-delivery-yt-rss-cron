@@ -14,7 +14,7 @@ budget:
   model: sonnet             # Claude model to use
 
 trigger:
-  timeout_seconds: 600      # Max time for a single claude -p invocation
+  timeout_seconds: 900      # Max time for a single claude -p invocation
   mcp_config: mcp.json      # Path to MCP config (relative to repo root)
   skill_file: skill/SKILL.md  # Path to vendored yt-intel skill
 
