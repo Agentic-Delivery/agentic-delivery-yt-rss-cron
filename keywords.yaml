@@ -32,7 +32,6 @@ keyword_groups:
       - agentic coding
       - vibe coding
       - ai coding
-      - ai code
       - ai developer
       - ai engineer
       - spec-driven
@@ -47,6 +46,11 @@ keyword_groups:
       - claude opus
       - claude haiku
       - anthropic
+      - claude.md
+      - cowork
+      - claude cowork
+      - opus 4
+      - sonnet 4
 
   devops:
     weight: 2
